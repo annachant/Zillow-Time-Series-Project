@@ -1,6 +1,7 @@
 # Predicting Best Real Estate Investments by Zip Code
 
 # Z-Max Realty Research
+![image](https://user-images.githubusercontent.com/89176309/154104964-b6febece-a44a-4d08-b2e6-5cc5b53be5ca.png)
 
 Real Estate is still the best long-term investment.  Given enough time, almost all real estate will appreciate in value, which means the investment market LOVES to buy and sell it.  For those with enough money, vision, focus, and tenacity, the real estate market offers the opportunity for profit, whether it’s for land to grow lumber, residential development, or building skyscrapers.  
 

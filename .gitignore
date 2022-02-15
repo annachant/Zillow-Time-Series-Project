@@ -127,3 +127,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+main_notebook.ipynb
+starter_notebook.ipynb

@@ -14,7 +14,7 @@ Our contractor, MTB Investment Group, has asked us to answer the above question.
 
 Of course, there is no such thing as no risk, and there are factors that cannot be completely anticipated, such as civil war in the old Soviet Union, or a worldwide pandemic.  Nonetheless, we believe the analysis here provides the most effective strategy for our clients to proceed.
 
-Initial work
+## Initial work
 
 Time series datasets offer special challenges for modeling, and this one particularly so.  Because of its format, there was a considerable amount of work to make sure the data was in an optimum form for the analysis.  In addition, we did a statistical analysis to discover the most promising zip codes, followed by a considerable amount of grouping and visualizing the data to verify our initial assumptions.  Some of these graphs are seen below.  We also took action to eliminate some null values in the “Metro” column by filling them in with the value in the “City” column. We also had to “melt” the table that the data is stored in, in order to set the index of the data frame to the time of sale (by month).  These time of sale values we’re originally in columns; “melting” the table moved these items to the index, resulting in over 250 less columns than the original files, but vastly increasing the number of rows.  
 
@@ -22,10 +22,12 @@ PICTURES!
 
 Before modeling, the data is split into train and test sets.  Again, this is a little different than normal procedure, because since this is data over time, it’s important not to do anything that might randomize the data.  This is done by taking the last portion of the dataset (the last 20% for our models) and setting it aside as test data, and using the remainder as training data for our model.  
 
-Modeling
+## Modeling
 
-Evaluation
+## Evaluation
 
-Recommendations and Next Steps
+## Recommendations and Next Steps
+
+## Repository Struction
 
 

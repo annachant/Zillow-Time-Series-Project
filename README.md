@@ -52,17 +52,17 @@ We recommend that MTB Investment Group, center their investment strategy in the 
 
 ├── data
 |   ├── zillow_data.csv
-
+|
 ├── personal notebooks
 |   ├── 
 |   ├── 
 |   ├── 
-
+|
 ├── .gitignore
-
+|
 ├── Presentation.pdf
-
+|
 ├── Combined Notebook.ipynb
-
+|
 ├── README.md
 

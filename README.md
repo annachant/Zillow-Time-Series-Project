@@ -30,7 +30,7 @@ We then ran a test of our modeling and evaluation procedures on a single zip cod
 
 With a successful implmentation of our baseline model and procedure, we created a function which took all of our Houston area zips and ran the modeling on each zip, and stored the predictions in a dictionary.
 
-To evaluate our models, we sorted the zip codes by the dollar amount return on investment (ROI) on the training set.  Those zip codes were:
+To evaluate our models, we sorted the zip codes by the dollar amount projected increase on the training set.  Those zip codes were:
 
 77060 - Aldine area (forecasted increase of ~24% over 3 years)
 

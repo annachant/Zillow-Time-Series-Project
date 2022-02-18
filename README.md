@@ -27,8 +27,6 @@ Histogram of Prices - All Zips
 
 Our dataset, from Zillow, covered dates from 1996 - 2018; over 14723 rows × 272 columns.  It included housing prices by month, zip codes and city, county and motropolitan areas.  Time series datasets offer special challenges for modeling, and this one particularly so.  Because of its format, there was a considerable amount of work to make sure the data was in an optimum form for the analysis.  We grouped the Houston zip codes into a single dataset.  We also had to “melt” the table that the data is stored in, in order to set the index of the data frame to the time of sale (by month).  These time of sale values we’re originally in columns; “melting” the table moved these items to the index, resulting in over 250 less columns than the original files, but vastly increasing the number of rows.  
 
-PICTURES!
-
 ## Modeling & Evaluation
 
 We then ran a test of our modeling and evaluation procedures on a single zip code -- train-test split, adfuller test for stationarity, finding best parameters using auto-ARIMA, SARIMAX modeling, calculation of MAPE (Mean Absolute Percentage Error), comparing real and predicted values, and testing the forecasting model performance.  The final result for each tested zip code will be a graph with the median home price beginning with 2015 - 2018, continuing with a forecast and confidence interval through 2021, as shown here:

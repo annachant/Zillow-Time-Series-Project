@@ -15,16 +15,16 @@ Our contractor, MTB Investment Group, has asked us to answer the above question.
 
 Of course, there is no such thing as no risk, and there are factors that cannot be completely anticipated.  Nonetheless, we believe the analysis here provides the most effective strategy for our clients to proceed.
 
-## Exploratory Data Analysis
+## Exploratory Data Analysis and First Steps
 
-Time series datasets offer special challenges for modeling, and this one particularly so.  Because of its format, there was a considerable amount of work to make sure the data was in an optimum form for the analysis.  We grouped the Houston zip codes into a single dataset.  We also had to “melt” the table that the data is stored in, in order to set the index of the data frame to the time of sale (by month).  These time of sale values we’re originally in columns; “melting” the table moved these items to the index, resulting in over 250 less columns than the original files, but vastly increasing the number of rows.  
+Our dataset, from Zillow, covered dates from 1996 - 2018; over 14723 rows × 272 columns.  It included housing prices by month, zip codes and city, county and motropolitan areas.  Time series datasets offer special challenges for modeling, and this one particularly so.  Because of its format, there was a considerable amount of work to make sure the data was in an optimum form for the analysis.  We grouped the Houston zip codes into a single dataset.  We also had to “melt” the table that the data is stored in, in order to set the index of the data frame to the time of sale (by month).  These time of sale values we’re originally in columns; “melting” the table moved these items to the index, resulting in over 250 less columns than the original files, but vastly increasing the number of rows.  
 
 
 PICTURES!
 
 ## Modeling & Evaluation
 
-We then ran a test of our modeling and evaluation procedures on a single zip code -- train-test split, adfuller test for stationarity, finding best parameters using auto-ARIMA, SARIMAX modeling, calculation of MAPE (Mean Absolute Percentage Error), camparing real and predicted values, and testing the forecasting model performance.  The final result for each tested zip code will be a graph with the average home price beginning with 2015 - 2018, continuing with a forecast and confidence interval through 2021, as shown here:
+We then ran a test of our modeling and evaluation procedures on a single zip code -- train-test split, adfuller test for stationarity, finding best parameters using auto-ARIMA, SARIMAX modeling, calculation of MAPE (Mean Absolute Percentage Error), camparing real and predicted values, and testing the forecasting model performance.  The final result for each tested zip code will be a graph with the median home price beginning with 2015 - 2018, continuing with a forecast and confidence interval through 2021, as shown here:
 
 ![image](https://user-images.githubusercontent.com/89176309/154710457-b9051a91-7157-40e7-8055-a5f7079024e8.png)
 
@@ -32,17 +32,17 @@ With a successful implmentation of our baseline model and procedure, we created 
 
 To evaluate our models, we sorted the zip codes by the dollar amount return on investment (ROI) on the training set.  Those zip codes were:
 
-77072 - Harris County (forecasted increase of ~28% over 3 years)
+77060 - Aldine area (forecasted increase of ~24% over 3 years)
 
-77053 - Fort Bend County (forecasted increase of ~25% over 3 years)
+77015 - Channelview area (forecasted increase of ~23% over 3 years)
 
-77598 - Harris County (forecasted increase of ~23% over 3 years)
+77598 - Webster area (forecasted increase of ~23% over 3 years)
 
-77015 - Harris County (forecasted increase of ~23% over 3 years)
+77099 - Sugar Land area (forecasted increase of ~22% over 3 years)
 
-77093 - Harris County (forecasted increase of ~23% over 3 years)
+77093 - Kingwood area (forecasted increase of ~15% over 3 years)
 
-GRAPH
+![image](https://user-images.githubusercontent.com/89176309/154755053-84b862a0-4632-4a5e-a2b1-bf529e6717ec.png)
 
 ## Recommendations and Next Steps
 

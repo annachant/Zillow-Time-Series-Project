@@ -42,7 +42,7 @@ To evaluate our models, we sorted the zip codes by the dollar amount projected i
 
 77093 - Kingwood area (forecasted increase of ~15% over 3 years)
 
-![image](https://user-images.githubusercontent.com/89176309/154755053-84b862a0-4632-4a5e-a2b1-bf529e6717ec.png)
+![image](https://user-images.githubusercontent.com/89176309/154759539-7786bade-34da-4953-b005-091acc90ebb1.png)
 
 ## Recommendations and Next Steps
 

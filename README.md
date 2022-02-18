@@ -50,19 +50,54 @@ We recommend that MTB Investment Group, center their investment strategy in the 
 
 ## Repository Struction
 
-├── data
-|   ├── zillow_data.csv
-|
+|   ├── comp_submissions
+|      ├── my_submission1272022103630.csv
+|      ├── my_submission1272022105147.csv
+|      ├── my_submission_0.csv
+|      ├── my_submission_1.csv
+|      ├── my_submission_2.csv
+|   ├── H1N1_Flu_Vaccines.csv
+|   ├── model_scoring_dict.pickle
+|   ├── models_dict.pickle
+|   ├── submission_format.csv
+|   ├── test_set_features.csv
+|   ├── training_set_features.csv
+|   ├── training_set_labels.csv
+    
+├── graphs 
+|   ├── 151572417-975323eb-5673-4ea8-a092-2ad59a47d4a6.png
+|   ├── SSNL_models.png
+|   ├── Tuned Random Forest - H1N1.png
+|   ├── Tuned SVC - Seasonal Flu - updated.png
+|   ├── fixedH1N1_models.png
+|   ├── image (10).png
+|   ├── image (7).png
+|   ├── image (8).png
+|   ├── image (9).png
+|   ├── partial_dependence_rf.png
+|   ├── partial_dependence_sv.png
+
 ├── personal notebooks
-|   ├── 
-|   ├── 
-|   ├── 
-|
+|   ├── Naive Bayes.ipynb
+|   ├── RandomForest_H1N1.ipynb
+|   ├── Sally-EDA.ipynb
+|   ├── jeff.ipynb
+|   ├── jeff_analysis_notebook.ipynb
+|   ├── matt notebook-instantiation bug fix.ipynb
+|   ├── matt notebook.ipynb
+|   ├── matt scratch.ipynb
+    
+├── pictures
+|   ├── 2018FLUVaccine.jpeg
+|   ├── acip-flu-recs800.jpeg
+|   ├── cdc.jpeg
+
 ├── .gitignore
-|
-├── Presentation.pdf
-|
+
+├── Boosting Vaccination Rates Presentation.pdf
+
 ├── Combined Notebook.ipynb
-|
+
 ├── README.md
+![image](https://user-images.githubusercontent.com/89176309/154758166-499b73fa-4e2b-4533-8828-628ec37ea641.png)
 

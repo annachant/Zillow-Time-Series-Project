@@ -23,7 +23,7 @@ PICTURES!
 
 ## Modeling & Evaluation
 
-We then ran a test of our modeling and evaluation procedures on a single zip code -- train-test split, adfuller test for stationarity, finding best parameters using auto-ARIMA, SARIMAX modeling, calculation of MAPE (Mean Absolute Percentage Error), camparing real and predicted values, and testing the forecasting model performance.  The final result for each tested zip code will be a graph with the median home price beginning with 2015 - 2018, continuing with a forecast and confidence interval through 2021, as shown here:
+We then ran a test of our modeling and evaluation procedures on a single zip code -- train-test split, adfuller test for stationarity, finding best parameters using auto-ARIMA, SARIMAX modeling, calculation of MAPE (Mean Absolute Percentage Error), comparing real and predicted values, and testing the forecasting model performance.  The final result for each tested zip code will be a graph with the median home price beginning with 2015 - 2018, continuing with a forecast and confidence interval through 2021, as shown here:
 
 ![image](https://user-images.githubusercontent.com/89176309/154710457-b9051a91-7157-40e7-8055-a5f7079024e8.png)
 

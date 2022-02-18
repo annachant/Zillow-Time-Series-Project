@@ -19,7 +19,6 @@ Of course, there is no such thing as no risk, and there are factors that cannot 
 
 Our dataset, from Zillow, covered dates from 1996 - 2018; over 14723 rows × 272 columns.  It included housing prices by month, zip codes and city, county and motropolitan areas.  Time series datasets offer special challenges for modeling, and this one particularly so.  Because of its format, there was a considerable amount of work to make sure the data was in an optimum form for the analysis.  We grouped the Houston zip codes into a single dataset.  We also had to “melt” the table that the data is stored in, in order to set the index of the data frame to the time of sale (by month).  These time of sale values we’re originally in columns; “melting” the table moved these items to the index, resulting in over 250 less columns than the original files, but vastly increasing the number of rows.  
 
-
 PICTURES!
 
 ## Modeling & Evaluation
@@ -28,7 +27,7 @@ We then ran a test of our modeling and evaluation procedures on a single zip cod
 
 ![image](https://user-images.githubusercontent.com/89176309/154710457-b9051a91-7157-40e7-8055-a5f7079024e8.png)
 
-With a successful implmentation of our baseline model and procedure, we created a function which took all of our Houston area zips and ran the modeling on each zip, and stored the predictions in a dictionary.
+With a successful implmentation of our baseline model and procedure, we created a function which took all of our Houston area zips and ran SARIMAX modeling on each zip, and stored the predictions in a dictionary.
 
 To evaluate our models, we sorted the zip codes by the dollar amount projected increase on the training set.  Those zip codes were:
 
@@ -49,7 +48,6 @@ To evaluate our models, we sorted the zip codes by the dollar amount projected i
 ![image](https://user-images.githubusercontent.com/89176309/154758876-814a243b-7a3d-4ff4-8843-25f18d3a376b.png)
 
 We recommend that MTB Investment Group, center their investment strategy in the Houston, TX area, in the zip codes listed above.  We further recommend that their evaluation of growth in the Houston area be a continuing process, as a wise investment strategy would be hold out a portion of their resource for other areas in Houston that might show surges of growth in the future.
-
 
 ![image](https://user-images.githubusercontent.com/89176309/154758166-499b73fa-4e2b-4533-8828-628ec37ea641.png)
 

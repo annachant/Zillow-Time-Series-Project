@@ -52,7 +52,3 @@ We recommend that MTB Investment Group, center their investment strategy in the 
 
 ![image](https://user-images.githubusercontent.com/89176309/154758876-814a243b-7a3d-4ff4-8843-25f18d3a376b.png)
 
-![image](https://user-images.githubusercontent.com/89176309/154758166-499b73fa-4e2b-4533-8828-628ec37ea641.png)
-
-| -- data
-

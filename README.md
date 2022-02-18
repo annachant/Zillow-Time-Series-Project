@@ -33,7 +33,7 @@ We then ran a test of our modeling and evaluation procedures on a single zip cod
 
 ![image](https://user-images.githubusercontent.com/89176309/154710457-b9051a91-7157-40e7-8055-a5f7079024e8.png)
 
-With a successful implmentation of our baseline model and procedure, we created a function which took all of our Houston area zips and ran SARIMAX modeling on each zip, and stored the predictions in a dictionary.
+With a successful implmentation of our baseline model and procedure, we created a function which took all of our Houston area zips and ran SARIMAX modeling on each, storing the predictions in a dictionary.
 
 To evaluate our models, we sorted the zip codes by the dollar amount projected increase on the training set.  Those zip codes were:
 

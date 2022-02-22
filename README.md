@@ -21,8 +21,11 @@ Examples from the full dataset:
 
 Price Density Plot - All Zips
 ![image](https://user-images.githubusercontent.com/89176309/154763949-c1f42b37-387e-4e13-a766-e8b9670646e5.png)
+
 Histogram of Prices - All Zips
 ![image](https://user-images.githubusercontent.com/89176309/154764002-6ee40ff4-fb26-4700-8ae6-b6c49c7eaa26.png)
+
+This chart shows the median home prices for the time frame of 2015-2018 for all zipcodes.
 ![image](https://user-images.githubusercontent.com/89176309/154766931-c769b45f-48b6-419f-8633-cd9c1c118934.png)
 
 Our dataset, from Zillow, covered dates from 1996 - 2018; over 14723 rows × 272 columns.  It included housing prices by month, zip codes and city, county and motropolitan areas.  Time series datasets offer special challenges for modeling, and this one particularly so.  Because of its format, there was a considerable amount of work to make sure the data was in an optimum form for the analysis.  We grouped the Houston zip codes into a single dataset.  We also had to “melt” the table that the data is stored in, in order to set the index of the data frame to the time of sale (by month).  These time of sale values we’re originally in columns; “melting” the table moved these items to the index, resulting in over 250 less columns than the original files, but vastly increasing the number of rows.  

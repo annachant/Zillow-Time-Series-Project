@@ -59,3 +59,6 @@ We recommend that MTB Investment Group, center their investment strategy in the 
 
 ![image](https://user-images.githubusercontent.com/89176309/154758876-814a243b-7a3d-4ff4-8843-25f18d3a376b.png)
 
+For more information
+Check out the full [Jupyter notebook](https://github.com/annachant/Zillow-Time-Series-Project/blob/main/Unofficial%20Intelligence%20Group%20Zillow%20Time%20Series%20Predictions.ipynb) and the [presentation.](https://github.com/annachant/Zillow-Time-Series-Project/blob/main/presentation.pdf)
+
